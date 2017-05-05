@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="SkiaSharpExamples.LinearProgressPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SkiaSharpExamples">
+    <Grid Padding="8">
+        <Grid.GestureRecognizers>
+            <TapGestureRecognizer Tapped="Handle_Tapped" />
+        </Grid.GestureRecognizers>
+        <local:LinearProgress x:Name="Progress1"
+                              Grid.Row="0"
+                              Grid.Column="0"
+                              HorizontalOptions="FillAndExpand"
+                              VerticalOptions="FillAndExpand"
+                              EndingPoint="100"
+                              ProgressColor="Navy"
+                              StartingPoint="0" />
+        <local:LinearProgress x:Name="Progress2"
+                              Grid.Row="1"
+                              Grid.Column="0"
+                              Margin="24"
+                              HorizontalOptions="FillAndExpand"
+                              VerticalOptions="FillAndExpand"
+                              EndingPoint="100"
+                              ProgressColor="Fuchsia"
+                              ProgressThickness="36"
+                              StartingPoint="0" />
+        <local:LinearProgress x:Name="Progress3"
+                              Grid.Row="2"
+                              Grid.Column="0"
+                              Margin="60"
+                              HorizontalOptions="FillAndExpand"
+                              VerticalOptions="FillAndExpand"
+                              EndingPoint="100"
+                              ProgressColor="Green"
+                              ProgressThickness="16"
+                              StartingPoint="0" />
+    </Grid>
+</ContentPage>

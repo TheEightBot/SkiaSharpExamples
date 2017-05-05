@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="SkiaSharpExamples.SkiaSharpExamplesPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SkiaSharpExamples">
+    <StackLayout>
+        <Button Clicked="RadialProgress_Clicked" Text="Radial Progress" />
+        <Button Clicked="RadialProgressOpenGl_Clicked" Text="Radial Progress - Open GL" />
+        <Button Clicked="LinearProgress_Clicked" Text="Linear Progress" />
+    </StackLayout>
+</ContentPage>
